@@ -1,10 +1,26 @@
-h1 {
-    position: relative;
-    font-size: 5em;
-    font-family: 'Fruktur', cursive;
+.jumbotron {
+    background-color:bisque;
 }
 
-.bg-crest {
+h1 {
+    font-size: 5em;
+    font-family: 'Fruktur', cursive;
+    position: relative;
+    color:black;
+}
+
+html {
+    font-size: 100%;
+}
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+/* .bg-crest { 
+    display: block;
     position: relative; 
     height: 100vh;
     width: 100%;
@@ -12,15 +28,19 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+    
+.bg-crest::after {  
+        content: "";
+        background-image: url('img/ct-crest.png');
+        background-size: 25%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        filter: alpha(Opacity=30);
+        opacity: 0.3; 
+    } */
 
-.bg-crest::before {    
-    content: "";
-    background-image: url('img/ct-crest.png');
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.75;
-}
