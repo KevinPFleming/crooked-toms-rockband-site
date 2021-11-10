@@ -12,12 +12,19 @@ h1 {
 html {
     font-size: 100%;
 }
+
 body {
     background-color: white;
     font-family: Arial, sans-serif;
     color: #ffffff;
     line-height: 1.5;
 }
+
+img {
+    justify-content: center;
+}
+
+
 
 /* .bg-crest { 
     display: block;
